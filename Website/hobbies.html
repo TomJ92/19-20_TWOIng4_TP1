@@ -5,7 +5,7 @@
 	<meta charset="utf-8"/>
 
 	<!-- Fichier CSS de référence -->
-	<link href="accueil.css" rel="stylesheet" type="text/css"/>
+	<link href="hobbies.css" rel="stylesheet" type="text/css"/>
 
 	<!-- Framework Bootstrap -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -18,11 +18,11 @@
 	<nav class="navbar navbar-expand-md" id="navigation">
 		<!--  Menu -->
 		<ul class="navbar-nav">
-			<li class="nav-item-active"> <a class="nav-link" id="nav-item-active" href="accueil.html">ACCUEIL</a></li>
+			<li class="nav-item-active"> <a class="nav-link" id="nav-item" href="accueil.html">ACCUEIL</a></li>
 			<li class="nav-item"><a class="nav-link" id="nav-item" href="experience.html">EXPERIENCE</a></li>
 			<li class="nav-item"><a class="nav-link" id="nav-item" href="formation.html">FORMATION</a></li>
 			<li class="nav-item"><a class="nav-link" id="nav-item" href="competences.html">COMPETENCES </a></li>
-			<li class="nav-item"><a class="nav-link" id="nav-item" href="hobbies.html">HOBBIES </a></li>
+			<li class="nav-item"><a class="nav-link" id="nav-item-active" href="hobbies.html">HOBBIES </a></li>
 		</ul>
 	</nav>
 	<svg class="fond_accueil">
@@ -35,54 +35,105 @@
 		<image href="Pictures/tom.png" xlink:href="Pictures/tom.png"></image>
 	</svg>
 	<div class="contenu">
-		<h1 class="titre_partie"> Présentation </h1>
-		<p> <br>Je m'appelle Tom Jouvet et je suis actuellement étudiante en première année de master d'écoles d'ingénieurs à l'ECE Paris. Je suis en spécialisation Objets Connectés, Réseaux et Services. <br> <br>Je suis quelqu’un d’organisé, engagé et proactif. J’ai de l’expérience dans différents domaines : la technique, le commerce et l’événementiel. <br> <br> Vous trouverez sur ce site, un résume de mes expériences professionnelles, de mes formations, de mes compétences ainsi que mes centres d'intérêt. <p>
-		</div>
-		<!-- Footer -->
-		<footer>
+		<h1 class="titre_partie"> Hobbies et associations </h1>
+		<table class="table_hobbie">
+			<tr class="tr_hobbie">
+				<th class="blanck_hobbie"></th>
+				<th><svg class="image_hobbie">
+		<image x="0" y="0" width="270px" height="270px" href="Pictures/travel.png" xlink:href="Pictures/travel.png"></image>
+	</svg></th>
+				<th class="blanck_hobbie"></th>
+				<th><svg class="image_hobbie">
+		<image x="0" y="0" width="270px" height="270px" href="Pictures/cinema.png" xlink:href="Pictures/cinema.png"></image>
+	</svg></th>
+				<th class="blanck_hobbie"></th>
+				<th><svg class="image_hobbie">
+		<image x="0" y="0" width="270px" height="270px" href="Pictures/sport.png" xlink:href="Pictures/sport.png"></image>
+	</svg></th>
+			</tr>
+			<tr class="tr_hobbie">
+				<td class="blanck_hobbie"></td>
+				<td class="text_hobbie">Voyage</td>
+				<td class="blanck_hobbie"></td>
+				<td class="text_hobbie">Cinéma</td>
+				<td class="blanck_hobbie"></td>
+				<td class="text_hobbie">Sport</td>
+			</tr>
+		</table>
+		<table class="table_hobbie">
+			<tr class="tr_hobbie">
+				<th class="blanck_hobbie"></th>
+				<th><svg class="image_hobbie">
+		<image x="0" y="0" width="270px" height="270px" href="Pictures/camera.png" xlink:href="Pictures/camera.png"></image>
+	</svg></th>
+				<th class="blanck_hobbie"></th>
+				<th><svg id="genius_img">
+		<image x="0" y="0" width="531px" height="256px" href="Pictures/Genius.jpg" xlink:href="Pictures/Genius.jpg"></image>
+	</svg></th>
+				<th class="blanck_hobbie"></th>
+				<th><svg id="upa_img">
+		<image x="0" y="0" width="330px" height="330px" href="Pictures/UPA.png" xlink:href="Pictures/UPA.png"></image>
+	</svg></th>
+			</tr class="tr_hobbie">
+			<tr>
+				<td class="blanck_hobbie"></td>
+				<td class="text_hobbie">Photographie</td>
+				<td class="blanck_hobbie"></td>
+				<td class="text_hobbie">Entrepreneuriat</td>
+				<td class="blanck_hobbie"></td>
+				<td class="text_hobbie">Humanitaire</td>
+			</tr>
+		</table>
+		<video controls>
+		  <source src="Video/vietnam.mp4" type="video/mp4">
+		</video>
+<p> Vidéo de présentation de l'association "Les Sampaniers du Vietnam" dans la ville de Hué au Vietnam où j'ai réalisé un stage humanitaire avec <em>Unis Pour Agir</em> durant ma troisième année de licence à l'<em>ECE Paris</em>.</p>
+	</div>
+	<!-- Footer -->
+	<footer>
 
-			<!-- Footer Links -->
-			<div class="container-fluid text-center text-md-left">
+		<!-- Footer Links -->
+		<div class="container-fluid text-center text-md-left">
 
-				<!-- Grid row -->
-				<div class="row">
+			<!-- Grid row -->
+			<div class="row">
 
-					<!-- Grid column -->
-					<div class="col">
+				<!-- Grid column -->
+				<div class="col">
 
-						<!-- Content -->
-						<h5 class="footer_titre">Coordonnées</h5>
-						<br> <br> <br>
-						<span id="Coordonnées"> Mail : <a href="mailto:tom.jouvet@edu.ece.fr">tom.jouvet@edu.ece.fr</a> <br>
-							Téléphone : 01 44 39 06 00 <br>
-						Adresse : 37 Quai de Grenelle, 75015 Paris</p>
-
-					</div>
-					<!-- Grid column -->
-
-					<hr class="clearfix w-100 d-md-none pb-3">
-
-					<!-- Grid column -->
-					<div class="col">
-
-						<!-- Links -->
-						<a href="contact.html"><h5 class="footer_titre">Formulaire de contact</h5> </a>
-						<br> <br> <br>
-						<!--Linkedin -->
-						<a href="https://www.linkedin.com/in/tom-jouvet-b81956170" class="li-ic">
-							<h5 class="footer_titre">LinkedIn</h5>
-						</a>
-
-					</div>
-					<!-- Grid column -->
+					<!-- Content -->
+					<h5 class="footer_titre">Coordonnées</h5>
+					<br> <br> <br>
+					<span id="Coordonnées"> Mail : <a href="mailto:tom.jouvet@edu.ece.fr">tom.jouvet@edu.ece.fr</a> <br>
+						Téléphone : 01 44 39 06 00 <br>
+					Adresse : 37 Quai de Grenelle, 75015 Paris</p>
 
 				</div>
-				<!-- Grid row -->
+				<!-- Grid column -->
+
+				<hr class="clearfix w-100 d-md-none pb-3">
+
+				<!-- Grid column -->
+				<div class="col">
+
+					<!-- Links -->
+					<a href="contact.html"><h5 class="footer_titre">Formulaire de contact</h5> </a>
+					<br> <br> <br>
+					<!--Linkedin -->
+					<a href="https://www.linkedin.com/in/tom-jouvet-b81956170" class="li-ic">
+						<h5 class="footer_titre">LinkedIn</h5>
+					</a>
+
+				</div>
+				<!-- Grid column -->
 
 			</div>
-			<!-- Footer Links -->
-		</footer>
-		<!-- Footer -->
-	</body>
+			<!-- Grid row -->
 
-	</html>
+		</div>
+		<!-- Footer Links -->
+	</footer>
+	<!-- Footer -->
+</body>
+
+</html>

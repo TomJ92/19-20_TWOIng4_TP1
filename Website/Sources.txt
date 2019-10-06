@@ -1,3 +1,6 @@
 Bouton de formulaire : https://www.w3schools.com/tags/tag_button.asp
 Formulaire : https://www.w3schools.com/tags/tag_form.asp
 Footer avec Bootstrap : https://mdbootstrap.com/docs/jquery/navigation/footer/
+Video : https://developer.mozilla.org/fr/docs/Web/HTML/Element/Video
+Animation CSS : https://raw.githubusercontent.com/daneden/animate.css/master/animate.css
+Spin Animation : http://jsfiddle.net/gionaf/Ugc5g/

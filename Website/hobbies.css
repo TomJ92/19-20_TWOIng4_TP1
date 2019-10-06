@@ -97,6 +97,7 @@ p
 	font-style: normal;
 	font-weight: normal;
 	font-size: 40px;
+	width: 1790px;
 	color: rgba(39,102,140,1);
 }
 #titre_website
@@ -138,7 +139,7 @@ footer
 	height: 412px;
 	position: absolute;
 	left: 0px;
-		top: 3006px;
+		top: 3871px;
 }
 #Coordonnées
 {
@@ -163,4 +164,68 @@ footer
 	font-weight: normal;
 	font-size: 50px;
 	color: rgba(39,102,140,1);
+}
+.image_hobbie
+{
+	width:270px;
+	height: 270px;
+	text-align: center;
+	margin :0px;
+
+}
+.text_hobbie
+{
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	color: rgba(39,102,140,1);
+	margin :0px;
+}
+#upa_img
+{
+	width: 330px
+	text-align:center;
+	height : 330px;
+}
+#genius_img
+{
+	width: 531px;
+	height: 256px;
+	text-align: center;
+
+}
+.table_hobbie
+{
+	left:309px;
+	margin :0px;
+
+
+}
+.tr_hobbie
+{
+	padding-left: 256px;
+	padding-right: 256px;
+	padding-bottom: 84px;
+	margin :0px;
+}
+.blanck_hobbie
+{
+	width:256px;
+	height: 330px;
+	color:#FFFFFF;
+}
+video
+{
+	width : 1242px;
+	height: 700px;
+	left: 215px;
+	position: relative;
+	margin:20px;
+}
+em
+{
+	font-style: italic;
+
 }
