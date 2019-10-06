@@ -1,0 +1,8 @@
+Sources de code utilisées :
+
+-	Bouton de formulaire - W3Schools : https://www.w3schools.com/tags/tag_button.asp
+-	Formulaire -W3Schools : https://www.w3schools.com/tags/tag_form.asp
+-	Footer avec Bootstrap - Mdbootstrap: https://mdbootstrap.com/docs/jquery/navigation/footer/
+-	Balise video - MDN Web Docs : https://developer.mozilla.org/fr/docs/Web/HTML/Element/Video
+-	Animation CSS - Danield Eden : https://raw.githubusercontent.com/daneden/animate.css/master/animate.css
+-	Spin Animation - gionaf : http://jsfiddle.net/gionaf/Ugc5g/
