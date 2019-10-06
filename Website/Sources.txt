@@ -1,0 +1,3 @@
+Bouton de formulaire : https://www.w3schools.com/tags/tag_button.asp
+Formulaire : https://www.w3schools.com/tags/tag_form.asp
+Footer avec Bootstrap : https://mdbootstrap.com/docs/jquery/navigation/footer/
